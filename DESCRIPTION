@@ -1,11 +1,15 @@
 Package: logitnormdistapp
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Shiny app for plotting distributions of proportions defined by normal distributions on the logit scale
+Version: 1.0
+Author: person("Aurélien", "Madouasse", email = "aurelien.madouasse@oniris-nantes.fr",
+                  role = c("aut", "cre"))
+Maintainer: Aurélien Madouasse <aurelien.madouasse@oniris-nantes.fr>
+Description: Shiny app for plotting distributions of proportions defined by normal distributions on the logit scale
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Depends:
+    R (>= 4.0)
+Imports: shiny
+RoxygenNote: 7.1.1
