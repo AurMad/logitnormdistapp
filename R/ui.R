@@ -6,7 +6,7 @@ ui <- shiny::fluidPage(
         shiny::sliderInput(
             inputId = "mean_logit",
             label = "Mean",
-            min = -10, max = 10,
+            min = -5, max = 5,
             step = .1,
             value = 0
         ),
